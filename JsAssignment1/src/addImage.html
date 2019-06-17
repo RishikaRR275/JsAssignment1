@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add Image</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="GalleryJS.js">
+    </script>
+</head>
+
+<body >
+<div class ="index">
+    <a href="HomePage.html">Home</a>
+    <a href="AboutMe.html">About Me</a>
+    <a href="ContactMe.html">Contact Me</a>
+    <a href="Gallery.html">Gallery</a>
+    <a href="GalleryAdmin.html">Gallery Admin</a>
+</div>
+<h1>Add Image</h1>
+<form method="get" action = "Gallery.html">
+    Image URL : <input type = "text" name="imageURL" id ="addImageURL" > <br>
+    Name : <input type = "text" name = "imgName" id= "addImgName"> <br>
+    Information: <input type = "text" name = "info" id = "addInfo"> <br>
+    Uploaded Date: <input type = "text" name = "uploadedDate" id = "addUploadedDate"> <br>
+    <input type ="button" name = "Add Image" value ="Add Image" onclick= "addImage()">
+</form>
+
+</body>
+</html>

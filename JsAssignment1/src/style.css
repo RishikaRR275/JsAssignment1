@@ -1,0 +1,53 @@
+.homebody{
+background-image: url("https://newevolutiondesigns.com/images/freebies/nature-hd-background-2.jpg");
+}
+
+.hey{
+font-family: 'Georgia';
+font-size: 50px;
+text-align: center;
+font-weight: bold;
+}
+
+.homeIndex a{
+font-family: 'Georgia';
+font-size: 30px;
+color: black;
+margin: 20px;
+}
+
+body{
+background-color: #dcf7b0;
+}
+
+.index a{
+   background-color: black;
+   border-radius: 3px;
+   color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 10px;
+  padding: 12px;
+  text-align: center;
+}
+
+h1{
+color: black;
+fot-family: Georgia;
+text-align: center;
+font-size: 50px;
+}
+
+p{
+color: black;
+font-family: Arial;
+font-size: 35px;
+}
+
+
+.imageOps a{
+color: black;
+font-size: 35px;
+}
